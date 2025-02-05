@@ -24,7 +24,7 @@ class Funny_Student():
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     exit()
-
+    b = 'ыыы'
 
 if __name__ == "__main__":
     Funny_Student()
