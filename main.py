@@ -17,6 +17,7 @@ class Funny_Student():
         self.student_image = pygame.image.load("student.png")
         a = "false"
         self.run()
+        n = 111
 
     def run(self):
         while True:
