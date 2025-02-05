@@ -15,7 +15,7 @@ class Funny_Student():
         self.five_image = pygame.image.load("five.png")
         self.two_image = pygame.image.load("two.png")
         self.student_image = pygame.image.load("student.png")
-
+        a = "false"
         self.run()
 
     def run(self):
