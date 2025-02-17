@@ -21,6 +21,7 @@ class Funny_Student():
         self.student_size = self.student_image.get_size()
 
         self.run()
+        n = 111
 
     def run(self):
         while True:
