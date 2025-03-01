@@ -75,7 +75,6 @@ class Funny_Student():
                 if abs(position5[0] - self.student_pos[0]) <= self.student_size[0]:
                     if abs(position5[1] - self.student_pos[1]) <= self.student_size[1]:
                         self.score += 1
-                        self.screen.fill((0, 255, 0))
                         self.five_pos.remove(position5)
                 else:
                     if position5[1] >= self.screen_height:
